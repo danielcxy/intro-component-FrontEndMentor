@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+  <body>
+    <div class="container">
+      <div class="phrases-left">
+        <div class="phrase1"> <h1> Learn to code by <br> watching others </br> </h1> </div>
+        <div class="phrase2"> <h2> See how experienced developers solve problems in real-time. <br> Watching scripted tutorials is great, 
+                                   but understanding how <br> developers think is invaluable. </h2> </div> 
+    </div>
+    <div class="phrases-right">
+      <div class="ad"> <button class="ads">  <strong class="strong1"> Try it free 7 days </strong> then $20/mo. thereafter  </button> </div>
+        <div class="formbox">
+          <form class="form"> <!--Comentário para esclarecer que dentro de um input, há outro input. O primeiro input é uma div de display none, que aparecerá quando o evento em JavaScript ocorrer.-->
+            <label>
+              <input class="alertnotify1" type="text" name="First Name">  <input class="firstname" type="text"> </input> </input>
+              <div class="alert1"> First Name cannot be empty. </div>
+            </label>
+            <label>    
+              <input class="alertnotify2" type="text" name="Last Name"> <input class="lastname" type="text" > </input> </input>  
+              <div class="alert2"> Last Name cannot be empty. </div>  
+            </label>  
+            <label> 
+              <input class="alertnotify3" type="text" name="email" placeholder="email@example/com"> <input class="email" type="email"> </input> </input> 
+              <div class="alert3"> Email cannot be empty. </div>
+            </label>
+            <label>
+              <input class="alertnotify4" type="password"> <input class="password" type="password" > </input> </input> 
+              <div class="alert4"> Password cannot be empty. </div>
+            </label>  
+            <button type="submit" class="submits"> <h1> CLAIM YOUR FREE TRIAL </h1> </button> 
+            <div class=phrase3> By clicking the button, you are agreeing to our <strong class="strong2"> Terms and Services </strong></div>
+          </form>  
+      </div>
+  </div> 
+</div>
+<footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/danielcxy" target="_blank"> Daniel Renan Front-End Developer :) </a>.
+    </p>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
